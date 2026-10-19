@@ -2,7 +2,7 @@
 
 An academic Streamlit application exploring how customer interaction history can inform restaurant menu recommendations and placement.
 
-**Context:** Three-person academic project. The implementation below describes the team deliverable; it does not attribute every component to an individual contributor.
+**Context:** Individual academic project by Lê Minh Đạt. I designed and implemented the application, with AI tools assisting parts of the coding.
 
 ## Business question
 
@@ -38,8 +38,8 @@ The main script is `streamlit_app3.py`. See [Implementation flow](docs/flow.md) 
 ## Run locally
 
 ```bash
-git clone https://github.com/bigbaboy/MinhDat-ThanhDat-KimAnh.git
-cd MinhDat-ThanhDat-KimAnh
+git clone https://github.com/bigbaboy/customer-segmentation-menu-personalization.git
+cd customer-segmentation-menu-personalization
 python -m venv .venv
 ```
 
@@ -72,4 +72,4 @@ Keep `final_with_new_items.xlsx` in the repository root. Dependencies include St
 - [ ] Make the evaluation date configurable for reproducible demonstrations.
 - [ ] Connect and compare the existing KNN method with the rule-based recommendations.
 - [ ] Add tests for empty pools, repeated segment labels and missing customer history.
-- [ ] Document individual team contributions and add real application screenshots.
+- [ ] Add screenshots from the running application.
